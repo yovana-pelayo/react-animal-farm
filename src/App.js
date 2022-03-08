@@ -1,5 +1,4 @@
 import React from 'react';
-import background from './background.png';
 import './App.css';
 
 import Header from './components/Header/Header';
@@ -8,12 +7,11 @@ import Main from './components/Main/Main';
 
 function App() {
   return (
-    <div className="app" style={{ backgroundImage: `url(${background})` }}>
-      <div className="App">
-        <Header />
-        <Main />xs
-        <Footer />
-      </div>
+    <div className="App">
+      <Header />
+      <Main />
+      xs
+      <Footer />
     </div>
   );
 }
