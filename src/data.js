@@ -3,8 +3,8 @@ export const animals = [
     name: 'Betsy the Cow',
     type: 'cow',
     says: 'Mooooooo!',
-    top: '200px',
-    left: '50%',
+    top: '170px',
+    left: '54%',
   },
   {
     name: 'Noel the Donkey',
@@ -31,14 +31,14 @@ export const animals = [
     name: 'Charlotte the Spider',
     type: 'spider',
     says: 'Never hurry and never worry!',
-    top: '260px',
-    left: '72%',
+    top: '200px',
+    left: '75%',
   },
   {
     name: 'Samuel the Sheep',
     type: 'sheep',
     says: "Just because we're sheep, it doesn't mean we have to follow. Think for yourselves.",
-    top: '225px',
+    top: '130px',
     left: '20%',
   },
 ];
