@@ -6,9 +6,16 @@ import { animals } from '../../data';
 export default function Main() {
   return (
     <main>
-      <div>
-        <Animal type={'cow'}></Animal>
-      </div>
+      {animals.map((item) => (
+        <Animal
+          key={item.name}
+          type={item.type}
+          says={item.says}
+          name={item.name}
+          top={item.top}
+          left={item.left}
+        />
+      ))}
     </main>
   );
 }

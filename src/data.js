@@ -1,6 +1,5 @@
 export const animals = [
   {
-    id: 1,
     name: 'Betsy the Cow',
     type: 'cow',
     says: 'Mooooooo!',
@@ -8,7 +7,6 @@ export const animals = [
     left: '50%',
   },
   {
-    id: 2,
     name: 'Noel the Donkey',
     type: 'donkey',
     says: 'Heee haw!',
@@ -16,7 +14,6 @@ export const animals = [
     left: '38%',
   },
   {
-    id: 3,
     name: 'Golly the Goose',
     type: 'goose',
     says: 'Run pig! Be free! I would if I could.',
@@ -24,7 +21,6 @@ export const animals = [
     left: '65%',
   },
   {
-    id: 4,
     name: 'Wilbur the Pig',
     type: 'pig',
     says: 'You have been my friend. That in itself is a tremendous thing.',
@@ -32,7 +28,6 @@ export const animals = [
     left: '5%',
   },
   {
-    id: 5,
     name: 'Charlotte the Spider',
     type: 'spider',
     says: 'Never hurry and never worry!',
@@ -40,7 +35,6 @@ export const animals = [
     left: '72%',
   },
   {
-    id: 6,
     name: 'Samuel the Sheep',
     type: 'sheep',
     says: "Just because we're sheep, it doesn't mean we have to follow. Think for yourselves.",
